@@ -2,13 +2,13 @@ spring:
 # 配置存储数据的mongoDB数据库连接
   data:
     mongodb:
-      username: box
-      host: 127.0.0.1
+      username: admin
+      host: 39.99.206.180
       port: 27017
-      password: 123456
-      database: box
+      password: admin
+      database: glmall
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/stock
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    username: stock
+      url: jdbc:mysql://10.90.1.211:3306/stock
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      password: xiot
+      username: Xiot@mariadb_2018

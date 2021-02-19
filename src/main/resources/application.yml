@@ -2,7 +2,7 @@ spring:
   application:
     name: box-spider
   profiles:
-    active: prod
+    active: dev
 
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
@@ -27,3 +27,5 @@ box:
       collectionName: ifengNewsJson
     # 定时任务
     cron: 0 */30 * * * ?
+    # 大家机械
+    dajiajixie:
