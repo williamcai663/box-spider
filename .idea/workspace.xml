@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6029963e-5283-4b03-b55c-7cc1efee92a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/box-spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="49" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ogPnWdzZRmsw4GJRPbptiMrYi2" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BoxSpiderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aposs.box.spider.BoxSpiderApplication" />
+      <module name="box-spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aposs.box.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BoxSpiderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6029963e-5283-4b03-b55c-7cc1efee92a4" name="Default Changelist" comment="" />
+      <created>1613705428040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613705428040</updated>
+    </task>
+    <task id="LOCAL-00001" summary="提交编码">
+      <created>1613727610202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613727610202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="爬虫处理">
+      <created>1613805428780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613805428780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交编码" />
+    <MESSAGE value="爬虫处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫处理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2084" y="286" key="#BoxSpiderApplication" timestamp="1613719289413">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2084" y="286" key="#BoxSpiderApplication/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613719289413" />
+    <state x="2138" y="371" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1613788895121">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2138" y="371" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613788895121" />
+    <state x="2213" y="326" key="#com.intellij.ide.util.MemberChooser" timestamp="1613788928595">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2213" y="326" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613788928595" />
+    <state x="2033" y="212" key="CommitChangelistDialog2" timestamp="1613805428558">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2033" y="212" key="CommitChangelistDialog2/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805428558" />
+    <state width="482" height="466" key="DebuggerActiveHint" timestamp="1613791527492">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="482" height="466" key="DebuggerActiveHint/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613791527492" />
+    <state width="1876" height="640" key="GridCell.Tab.0.bottom" timestamp="1613805306098">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="640" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306098" />
+    <state width="1396" height="383" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1613746196499" />
+    <state width="1876" height="640" key="GridCell.Tab.0.center" timestamp="1613805306097">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="640" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306097" />
+    <state width="1396" height="383" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1613746196498" />
+    <state width="1876" height="640" key="GridCell.Tab.0.left" timestamp="1613805306096">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="640" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306096" />
+    <state width="1396" height="383" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1613746196497" />
+    <state width="1876" height="640" key="GridCell.Tab.0.right" timestamp="1613805306098">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="640" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306098" />
+    <state width="1396" height="383" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1613746196498" />
+    <state width="1876" height="271" key="GridCell.Tab.1.bottom" timestamp="1613803849271">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.1.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849271" />
+    <state width="1876" height="271" key="GridCell.Tab.1.center" timestamp="1613803849270">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.1.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849270" />
+    <state width="1876" height="271" key="GridCell.Tab.1.left" timestamp="1613803849269">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.1.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849269" />
+    <state width="1876" height="271" key="GridCell.Tab.1.right" timestamp="1613803849270">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.1.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849270" />
+    <state x="1938" y="271" key="Maven.ArtifactSearchDialog" timestamp="1613787749778">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="1938" y="271" key="Maven.ArtifactSearchDialog/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613787749778" />
+    <state x="1909" y="248" key="SettingsEditor" timestamp="1613719316496">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="1909" y="248" key="SettingsEditor/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613719316496" />
+    <state x="1992" y="272" width="667" height="476" key="find.popup" timestamp="1613706262263">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="1992" y="272" width="667" height="476" key="find.popup/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613706262263" />
+    <state x="2065" y="289" width="670" height="676" key="search.everywhere.popup" timestamp="1613805616698">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2065" y="289" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805616698" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/box_spider$BoxSpiderApplication.ic" NAME="BoxSpiderApplication Coverage Results" MODIFIED="1613719182229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.aposs.box.spider.*</FILTER>
+    </SUITE>
+  </component>
+</project>

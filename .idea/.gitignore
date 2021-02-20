@@ -1,62 +1,46 @@
-# 忽略匹配下列规则的Git 提交 V2.1.0
-### gradle ###
-.gradle
-/build/
-!gradle/wrapper/gradle-wrapper.jar
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
-.settings/
 .apt_generated
 .classpath
 .factorypath
 .project
 .settings
 .springBeans
-bin/
+.sts4-cache
+.log
 
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-*.lock
-rebel.xml
+.mvn
+mvnw*
 
 ### NetBeans ###
-nbproject/private/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 build/
-nbbuild/
-nbdist/
-.nb-gradle/
 
-### maven ###
-target/
-*.war
-*.ear
-*.zip
-*.tar
-*.tar.gz
+### VS Code ###
+.vscode/
 
-### logs ####
-/logs/
-*.log
+### generated files ###
+bin/
+gen/
 
-### temp ignore ###
-*.cache
-*.diff
-*.patch
-*.tmp
-*.java~
-*.properties~
-*.xml~
-
-### system ignore ###
+### MAC ###
 .DS_Store
-Thumbs.db
-Servers
-.metadata
-upload
-gen_code
 
-### node ###
-node_modules
+### Other ###
+logs/
+log
+temp/
