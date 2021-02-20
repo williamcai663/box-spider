@@ -25,7 +25,7 @@ public class InfoSpiderRunner implements ApplicationRunner {
         logger.info("end the info spider,it cost " + (System.currentTimeMillis() - startTime));
     }
 
-    @Scheduled(cron = "0 0/10 * * * ?")
+    @Scheduled(cron = "0 0/5 * * * ?")
     public void processInfoSpider(){
 
     }
