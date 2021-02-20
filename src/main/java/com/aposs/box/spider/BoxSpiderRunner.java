@@ -26,7 +26,7 @@ import java.util.Date;
  * 爬虫程序调度入口
  */
 @Component
-public class BoxSpiderRunner implements ApplicationRunner {
+public class BoxSpiderRunner  {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -48,7 +48,7 @@ public class BoxSpiderRunner implements ApplicationRunner {
     private SpiderProperties tencentSpiderProperties;
     private SpiderProperties ifengSpiderProperties;
 
-    @Override
+    //@Override
     public void run(ApplicationArguments args) {
         System.out.println("---------------------------run-------------------------");
         tencentSpiderProperties = PropertiesUtil.getProperties(env, "box.spider.tencentNews", SpiderProperties.class);
@@ -62,7 +62,7 @@ public class BoxSpiderRunner implements ApplicationRunner {
     /**
      * 定时执行器，程序启动后立刻执行一次
      */
-    @Scheduled(cron = "${box.spider.cron}")
+    //@Scheduled(cron = "${box.spider.cron}")
     public void processNewsSpiderSchedule() {
         logger.info("processNewsSpiderSchedule start");
         newsSpiderService.runTencentNewsSpider(tencentSpiderProperties);
@@ -74,7 +74,7 @@ public class BoxSpiderRunner implements ApplicationRunner {
     /**
      * 每天 10:00 执行
      */
-    @Scheduled(cron = "0 0 10 1/1 * ?")
+    //@Scheduled(cron = "0 0 10 1/1 * ?")
     public void processCheckTradingDateSchedule() {
         // 检查交易日并记录
         stockRealTimeSpider.checkAndUpdateTradingDate();
@@ -86,7 +86,7 @@ public class BoxSpiderRunner implements ApplicationRunner {
     /**
      * 每天 15:30 执行
      */
-    @Scheduled(cron = "0 30 15 1/1 * ?")
+    //@Scheduled(cron = "0 30 15 1/1 * ?")
     public void processStockSpiderSchedule() {
         // 如果当天未交易日，则执行行情数据爬取
         if (stockSpiderService.checkTradingDate(LocalDate.now())) {

@@ -8,7 +8,7 @@ spring:
       password: admin
       database: glmall
   datasource:
-      url: jdbc:mysql://10.90.1.211:3306/stock
+      url: jdbc:mysql://10.90.1.211:3306/gl_third_party?characterEncoding=UTF-8&useSSL=false
       driver-class-name: com.mysql.cj.jdbc.Driver
-      password: xiot
-      username: Xiot@mariadb_2018
+      username: xiot
+      password: Xiot@mariadb_2018
