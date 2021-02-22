@@ -19,15 +19,19 @@ public class InfoSpiderRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) {
-        long startTime = System.currentTimeMillis();
-        logger.info("begin the info spider");
-        infoSpiderService.runInfoSpider();
-        logger.info("end the info spider,it cost " + (System.currentTimeMillis() - startTime));
+        runSpider();
     }
 
     @Scheduled(cron = "0 0/5 * * * ?")
     public void processInfoSpider(){
+        runSpider();
+    }
 
+    private void runSpider(){
+        long startTime = System.currentTimeMillis();
+        logger.info("begin the info spider");
+        infoSpiderService.runInfoSpider();
+        logger.info("end the info spider,it cost " + (System.currentTimeMillis() - startTime));
     }
 
 
