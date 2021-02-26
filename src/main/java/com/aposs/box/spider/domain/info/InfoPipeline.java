@@ -46,7 +46,7 @@ public class InfoPipeline implements Pipeline {
                 sysInformation.setSpiderId(iterm.getString("spiderId"));
                 sysInformation.setSpiderUrl(iterm.getString("spiderUrl"));
                 sysInformation.setSourceName(iterm.getString("sourceName"));
-                sysInformation.setInfoType(iterm.getInteger("createType"));
+                sysInformation.setInfoType(getCreateTypeByChannelName(iterm.getString("channelName")));
                 sysInformation.setSummary(iterm.getString("summary"));
                 sysInformation.setContent(iterm.getString("content"));
                 sysInformation.setReleaseTime(iterm.getTimestamp("releaseTime"));
@@ -64,5 +64,24 @@ public class InfoPipeline implements Pipeline {
 
     private Optional<SysInformation> selectOne(Long id) {
         return Optional.ofNullable(infoMapper.selectById(id));
+    }
+
+    private int getCreateTypeByChannelName(String channelName) {
+        if ("行业".equals(channelName)) {
+            return 1;
+        }
+        if ("企业".equals(channelName)) {
+            return 2;
+        }
+        if ("新品".equals(channelName)) {
+            return 3;
+        }
+        if ("评测".equals(channelName)) {
+            return 4;
+        }
+        if ("导购".equals(channelName)) {
+            return 5;
+        }
+        return 1;
     }
 }

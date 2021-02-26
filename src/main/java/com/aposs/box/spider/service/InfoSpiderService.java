@@ -28,13 +28,14 @@ public class InfoSpiderService {
     }
 
     private List<Request> createRequest() {
-        int requestNum = 4;
+        int requestNum = 5;
         List<Request> requestList = new ArrayList<>();
-        for (int i = 1; i <= requestNum; i++) {
+        for (int index=1; index <= requestNum;) {
             Request request = new Request("https://www.dajiajixie.com/cms/content/pageList");
             request.setMethod(HttpConstant.Method.POST);
-            request.setRequestBody(HttpRequestBody.json("{\"pageNum\":1,\"pageSize\":100,\"filters\":{\"channelId\":" + i + "}}", "utf-8"));
+            request.setRequestBody(HttpRequestBody.json("{\"pageNum\":1,\"pageSize\":100,\"filters\":{\"channelId\":" + index + "}}", "utf-8"));
             requestList.add(request);
+            index=index+1;
         }
         return requestList;
     }

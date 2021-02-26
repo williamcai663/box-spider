@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6029963e-5283-4b03-b55c-7cc1efee92a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/box-spider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6029963e-5283-4b03-b55c-7cc1efee92a4" name="Default Changelist" comment="爬虫改成">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/box-spider.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/box-spider.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aposs/box/spider/domain/info/InfoPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aposs/box/spider/domain/info/InfoPipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aposs/box/spider/service/InfoSpiderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aposs/box/spider/service/InfoSpiderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,13 +103,29 @@
       <option name="project" value="LOCAL" />
       <updated>1613805428780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="每5分钟爬一次大家机械数据">
+      <created>1613812711886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613812711886</updated>
+    </task>
+    <task id="LOCAL-00004" summary="爬虫改成5分钟更新一次">
+      <created>1613956624316</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613956624316</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交编码" />
     <MESSAGE value="爬虫处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬虫处理" />
+    <MESSAGE value="每5分钟爬一次大家机械数据" />
+    <MESSAGE value="爬虫改成5分钟更新一次" />
+    <option name="LAST_COMMIT_MESSAGE" value="爬虫改成5分钟更新一次" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2084" y="286" key="#BoxSpiderApplication" timestamp="1613719289413">
@@ -124,66 +140,95 @@
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
     <state x="2213" y="326" key="#com.intellij.ide.util.MemberChooser/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613788928595" />
-    <state x="2033" y="212" key="CommitChangelistDialog2" timestamp="1613805428558">
+    <state x="2033" y="212" key="CommitChangelistDialog2" timestamp="1613956624010">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state x="2033" y="212" key="CommitChangelistDialog2/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805428558" />
+    <state x="2033" y="212" key="CommitChangelistDialog2/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613956624010" />
     <state width="482" height="466" key="DebuggerActiveHint" timestamp="1613791527492">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
     <state width="482" height="466" key="DebuggerActiveHint/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613791527492" />
-    <state width="1876" height="640" key="GridCell.Tab.0.bottom" timestamp="1613805306098">
+    <state x="1824" y="248" key="DiffContextDialog" timestamp="1613810996292">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="640" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306098" />
-    <state width="1396" height="383" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1613746196499" />
-    <state width="1876" height="640" key="GridCell.Tab.0.center" timestamp="1613805306097">
+    <state x="1824" y="248" key="DiffContextDialog/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613810996292" />
+    <state width="1396" height="267" key="GridCell.Tab.0.bottom" timestamp="1614321322747">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="640" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306097" />
-    <state width="1396" height="383" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1613746196498" />
-    <state width="1876" height="640" key="GridCell.Tab.0.left" timestamp="1613805306096">
+    <state width="1876" height="271" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980470" />
+    <state width="1396" height="267" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321322747" />
+    <state width="1396" height="267" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1614309672735" />
+    <state width="1396" height="267" key="GridCell.Tab.0.center" timestamp="1614321322746">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="640" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306096" />
-    <state width="1396" height="383" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1613746196497" />
-    <state width="1876" height="640" key="GridCell.Tab.0.right" timestamp="1613805306098">
+    <state width="1876" height="271" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980470" />
+    <state width="1396" height="267" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321322746" />
+    <state width="1396" height="267" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1614309672734" />
+    <state width="1396" height="267" key="GridCell.Tab.0.left" timestamp="1614321322746">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="640" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805306098" />
-    <state width="1396" height="383" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1613746196498" />
-    <state width="1876" height="271" key="GridCell.Tab.1.bottom" timestamp="1613803849271">
+    <state width="1876" height="271" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980470" />
+    <state width="1396" height="267" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321322746" />
+    <state width="1396" height="267" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1614309672733" />
+    <state width="1396" height="267" key="GridCell.Tab.0.right" timestamp="1614321322747">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="271" key="GridCell.Tab.1.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849271" />
-    <state width="1876" height="271" key="GridCell.Tab.1.center" timestamp="1613803849270">
+    <state width="1876" height="271" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980470" />
+    <state width="1396" height="267" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321322747" />
+    <state width="1396" height="267" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1614309672734" />
+    <state width="1396" height="189" key="GridCell.Tab.1.bottom" timestamp="1614321110927">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="271" key="GridCell.Tab.1.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849270" />
-    <state width="1876" height="271" key="GridCell.Tab.1.left" timestamp="1613803849269">
+    <state width="1876" height="271" key="GridCell.Tab.1.bottom/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980471" />
+    <state width="1396" height="189" key="GridCell.Tab.1.bottom/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321110927" />
+    <state width="1396" height="189" key="GridCell.Tab.1.center" timestamp="1614321110926">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="271" key="GridCell.Tab.1.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849269" />
-    <state width="1876" height="271" key="GridCell.Tab.1.right" timestamp="1613803849270">
+    <state width="1876" height="271" key="GridCell.Tab.1.center/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980471" />
+    <state width="1396" height="189" key="GridCell.Tab.1.center/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321110926" />
+    <state width="1396" height="189" key="GridCell.Tab.1.left" timestamp="1614321110926">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
-    <state width="1876" height="271" key="GridCell.Tab.1.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613803849270" />
+    <state width="1876" height="271" key="GridCell.Tab.1.left/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980471" />
+    <state width="1396" height="189" key="GridCell.Tab.1.left/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321110926" />
+    <state width="1396" height="189" key="GridCell.Tab.1.right" timestamp="1614321110927">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state width="1876" height="271" key="GridCell.Tab.1.right/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613986980471" />
+    <state width="1396" height="189" key="GridCell.Tab.1.right/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1614321110927" />
     <state x="1938" y="271" key="Maven.ArtifactSearchDialog" timestamp="1613787749778">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
     <state x="1938" y="271" key="Maven.ArtifactSearchDialog/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613787749778" />
+    <state x="2176" y="327" key="RollbackChangesDialog" timestamp="1613806700556">
+      <screen x="1440" y="25" width="1920" height="1175" />
+    </state>
+    <state x="2176" y="327" key="RollbackChangesDialog/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613806700556" />
     <state x="1909" y="248" key="SettingsEditor" timestamp="1613719316496">
       <screen x="1440" y="25" width="1920" height="1175" />
     </state>
     <state x="1909" y="248" key="SettingsEditor/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613719316496" />
-    <state x="1992" y="272" width="667" height="476" key="find.popup" timestamp="1613706262263">
-      <screen x="1440" y="25" width="1920" height="1175" />
+    <state x="414" y="209" width="674" height="476" key="find.popup" timestamp="1613979868752">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="414" y="209" width="674" height="476" key="find.popup/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613979868752" />
     <state x="1992" y="272" width="667" height="476" key="find.popup/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613706262263" />
-    <state x="2065" y="289" width="670" height="676" key="search.everywhere.popup" timestamp="1613805616698">
-      <screen x="1440" y="25" width="1920" height="1175" />
+    <state x="469" y="222" width="670" height="504" key="search.everywhere.popup" timestamp="1613979857993">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="469" y="222" width="670" height="504" key="search.everywhere.popup/0.25.1440.875/1440.25.1920.1175@0.25.1440.875" timestamp="1613979857993" />
     <state x="2065" y="289" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/1440.25.1920.1175@1440.25.1920.1175" timestamp="1613805616698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aposs/box/spider/domain/info/InfoPipeline.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/box_spider$BoxSpiderApplication.ic" NAME="BoxSpiderApplication Coverage Results" MODIFIED="1613719182229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
